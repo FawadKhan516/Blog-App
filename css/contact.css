@@ -1,0 +1,38 @@
+.contact{
+    height: 80vh;
+    /* overflow: hidden;
+     */
+     /* background-color: azure; */
+     /* margin: 20px; */
+     padding: 20px;
+     margin-top: 30px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    margin: 28px
+}
+
+.box input, textarea{
+    margin: 10px;
+    padding: 15px;
+    width: 40vw;
+    font-family: var(--font2);
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 0;   
+}
+
+.btn-submit{
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+.btn-submit:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}

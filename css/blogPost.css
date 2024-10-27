@@ -1,0 +1,41 @@
+.image img{
+    width: 100%;
+    /* margin-top: 15px; */
+    height: 500px;
+
+}
+
+.blog-content{
+    /* background-color: aquamarine; */
+    font-family: var(--font2);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.icon-para{
+    font-size: 20px;
+}
+
+.content-para{
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: var(--font2);
+}
+
+
+.center{
+    display: flex;
+    /* background-color: beige; */
+}
+
+.blog-article{
+    flex-direction: column;
+    margin: 40px;
+    text-align: center;
+}
